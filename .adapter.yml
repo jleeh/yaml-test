@@ -1,5 +1,5 @@
 name: Test
-nodeIdentifier: test
+node_identifier: test
 platforms:
   - Docker
 data_sources:
