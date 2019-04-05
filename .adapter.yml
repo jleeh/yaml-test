@@ -1,0 +1,9 @@
+name: Test
+nodeIdentifier: test
+platforms:
+  - Docker
+data_sources:
+  - name: Binance
+    url: https://binance.com
+  - name: Coinbase Pro
+    url: https://pro.coinbase.com
