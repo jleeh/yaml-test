@@ -1,4 +1,5 @@
 name: Test
+description: Test adapter
 node_identifier: test
 platforms:
   - Docker
@@ -7,3 +8,7 @@ data_sources:
     url: https://binance.com
   - name: Coinbase Pro
     url: https://pro.coinbase.com
+parameters:
+  - url
+  - copyPath
+  - times
